@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f3e5f5;
+  }
+  .generator-container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  input[type="range"], input[type="checkbox"] {
+    margin: 10px 5px;
+  }
+  #password {
+    font-size: 18px;
+    padding: 10px;
+    width: 350px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #generate {
+    background-color: #4caf50;
+    color: white;
+  }
+  #generate:hover {
+    background-color: #45a049;
+  }
+  #copy {
+    background-color: #2196f3;
+    color: white;
+  }
+  #copy:hover {
+    background-color: #1976d2;
+  }
+
